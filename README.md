@@ -1,6 +1,6 @@
 StockingTwitter
 ===============
-This code doesn't necessarily work!
+This code isn't complete!
 
 Based off the work of Jeffrey Breene
 
