@@ -11,10 +11,10 @@ time.to <- as.Date(time.from, origin = "1900-01-01")  + 1
 source("score.sentiment.R") # Twitter analysis:
 
 # Twitter API access:
-CUSTOMER_KEY <- "mvd8Zgh9YFujcT9DV5Qhg"
-CUSTOMER_SECRET <- "QibHx9j3Gz4k06IYCNc6Uscz3sXrMHvpoyNfQEWLpPw"
-ACCESS_TOKEN <- "64032689-uxFADxGNcSCC7WYoD77kWxGuvdNEqzQAoxJQxi17p"
-ACCESS_secret<- "4NJFVzejRn91yVVDFIE5z314U8MNBCyLhI3cc7m2LjqrM"
+CUSTOMER_KEY <- "*"
+CUSTOMER_SECRET <- "*"
+ACCESS_TOKEN <- "*"
+ACCESS_secret<- "*"
 library(twitteR)
 twitCred<- setup_twitter_oauth(CUSTOMER_KEY, CUSTOMER_SECRET, ACCESS_TOKEN, ACCESS_secret, credentials_file=NULL)
 
